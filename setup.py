@@ -13,6 +13,11 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/nathantheinventor/win-cat",
     packages=setuptools.find_packages(),
+    entry_points={
+        'console_scripts': [
+            'win-cat=win_cat.cat:main'
+        ],
+    },
     classifiers=[
         "Programming Language :: Python :: 2",
         "Programming Language :: Python :: 3",
