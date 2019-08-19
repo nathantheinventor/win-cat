@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="win-cat",
-    version="0.0.1",
+    version="0.0.4",
     author="Nathan Collins",
     author_email="nathantheinventor@gmail.com",
     description="An implementation of cat for Windows",
